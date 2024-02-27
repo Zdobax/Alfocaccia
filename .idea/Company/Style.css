@@ -1,4 +1,33 @@
+/* Main */
 
-.top{
 
+.top {
+  border-bottom: 1px solid white;
+  color: white;
+  width: 100%;
+  display: inline-block;
+
+}
+
+.heading{
+  margin-left: 350px;
+  font-family: monospace;
+  float: left;
+
+}
+
+.Main-body {
+
+}
+
+.menu{
+  margin-left: 690px;
+  float: left;
+  margin-top: 24px;
+  font-size: 19px;
+
+}
+
+.menu a{
+  padding-left: 60px;
 }
