@@ -1,38 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Alfocaccia NBK</title>
-    <link rel="icon" type="image/x-icon" href="../Images/Alfonz_1.jpg">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Style.css">
+  <meta charset="UTF-8">
+  <title>Alfocaccia NBK</title>
+  <link rel="icon" type="image/x-icon" href="../Images/Alfonz_1.jpg">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Style.css">
 
 </head>
-<body style="background-image: url('../Images/Alfocaccia.jpeg');background-size: 1920px 920px;margin: 0; padding: 0">
+<body style="background-image: url('../Images/Alfocaccia2.jpg');background-size: 1920px 920px;margin: 0; padding: 0">
 
 <div class="top">
-    <img src="../Images/AlfLogo.png" width="90px" height="45px"
-         style="position: absolute; margin-left: 240px; margin-top: 10px">
-    <h1 class="heading">Alfocaccia</h1>
+  <img src="../Images/AlfLogo.png" width="90px" height="45px"
+       style="position: absolute; margin-left: 240px; margin-top: 10px">
+  <h1 class="heading">Alfocaccia</h1>
 
-    <div class="menu">
-        <a href="Main.html">Home</a>
-        <a href="Menu.html">Menu</a>
-        <a href="Story.html">Story</a>
-        <a href="Gallery.html">Gallery</a>
-        <a href="Contact.html">Contact</a>
-    </div>
+  <div class="menu">
+    <a href="Main.html">Home</a>
+    <a href="Menu.html">Menu</a>
+    <a href="Story.html">Story</a>
+    <a href="Gallery.html">Gallery</a>
+    <a href="Contact.html">Contact</a>
+  </div>
 </div>
 
 <div class="Main-body">
-  <div class="Main-text">
-    <h1 style="font-size: 59px">Alfocaccia</h1>
-    <p style="text-align: center; font-size: 20px">The best place ever known, <br>where foccacia will be your 7th heaven</p>
 
+  <div class="Main-text">
+    <div style="border: 2px solid black;padding:10px; text-align: center;height: 400px">
+      <h1 style="font-size: 50px">Alfocaccia</h1>
+      <p style="text-align: center; font-size: 20px">The best place ever known, <br>where foccacia will be your 7th
+        heaven.</p>
+      <br>
+      <br>
+      <b>
+      <p>Nymburk 2 CZ,<br> Kostelní 41,<br> 288 02 Nymburk</p>
+      </b>
+    </div>
+    <button class="Main-button" id="MainBtn">Menu</button>
   </div>
 
 
 </div>
+
+<script>
+  const MenuButton = document.getElementById("MainBtn");
+
+  MenuButton.addEventListener("click", function (bClick){
+    if (bClick){
+      location.href = "Menu.html";
+    }
+  })
+</script>
 
 </body>
 </html>

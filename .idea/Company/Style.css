@@ -45,8 +45,33 @@
   top: 180px;
   width: 270px;
   height: 500px;
-  border: 1px solid black;
+  border: 6px solid black;
+  border-radius: 10px;
   padding: 50px;
-  background-image: url("../Images/Text-bcg2.jpg");
+  background-color: #d9b27b;
 
+
+}
+
+.Main-button{
+  position: absolute;
+  width: 140px;
+  height: 60px;
+  top: 500px;
+  left: 110px;
+  font-size: 18px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px black;
+
+  background:linear-gradient(to right,black 50%, white 50% ) right bottom;
+  background-size: 200% 100%;
+  transition: all .4s ease-in-out;
+
+
+}
+
+.Main-button:hover{
+  background-position: left bottom;
+  color: white;
+  border:2px solid white ;
 }
