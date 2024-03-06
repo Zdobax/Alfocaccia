@@ -1,5 +1,12 @@
 /* Main */
 
+.MainPageBody{
+  background-image: url('../Images/Alfocaccia2.jpg');
+  background-size: 1920px 920px;
+  width:100%;
+  margin: 0;
+  padding: 0;
+}
 
 .top {
   border-bottom: 1px solid white;
@@ -8,6 +15,12 @@
   display: inline-block;
   background-image: url("../Images/Coffee.jpg");
 
+}
+
+.top img{
+  position: absolute;
+  margin-left: 240px;
+  margin-top: 10px;
 }
 
 .heading {
@@ -143,3 +156,22 @@
 }
 
 
+@media screen and (max-width: 1450px){
+  .heading {
+    margin-left: 250px;
+    font-family: monospace;
+    float: left;
+
+  }
+
+  .menu {
+    margin-left: 696px;
+    float: left;
+    margin-top: 24px;
+    font-size: 20px;
+  }
+
+  .top img{
+    position: absolute; margin-top: 10px
+  }
+}
