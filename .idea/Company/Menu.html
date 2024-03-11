@@ -26,28 +26,45 @@
   style="background-image: url('../Images/menubcg2.jpg');background-size: 1920px 920px; height: 2852px;padding: 0;margin-top: -4px; background-attachment: fixed; background-repeat: repeat">
 
   <div class="MenuCenter">
+    <div style="position: absolute; left: 100px;top: 165px">
+      <img src="../Images/Foccacia.jpeg" class="MenuImg1" id="img1">
 
-    <img src="../Images/Foccacia.jpeg" class="MenuImg1">
-    <div class="MenuP1">
-      <span style="font-size: 40px">Foccacia</span>
-      <br>
+      <div class="MenuP1">
+        <span style="font-size: 40px">Foccacia</span>
+        <br>
 
-      <span style="color: #503105">Bacon, rucola,<br> cheese, tomato, <br>pepper</span>
-      <br>
+        <span style="color: #503105">Bacon, rucola,<br> cheese, tomato, <br>pepper</span>
+
+      </div>
     </div>
 
+    <div style="position: absolute; left: 550px;top: 165px">
+      <img src="../Images/OpenFoccacia.jpeg" class="MenuImg2">
+      <div class="MenuP2">
+        <span style="font-size: 40px">Foccacia</span>
+        <br>
 
-    <img src="../Images/OpenFoccacia.jpeg" class="MenuImg2">
-    <div class="MenuP2">
-      <span style="font-size: 40px">Foccacia</span>
-      <br>
-
-      <span style="color: #503105">Bacon, rucola,<br> cheese, tomato, <br>pepper</span>
-      <br>
+        <span style="color: #503105">Bacon, rucola,<br> cheese, tomato, <br>pepper</span>
+        <br>
+      </div>
     </div>
   </div>
-</div>
 
+
+  <script>
+    const img1 = document.getElementById("img1");
+    const img2 = document.getElementById("img2");
+
+    img1.addEventListener("mouseover", chn);
+
+    function chn(){
+      if (chn){
+        img1.style.backgroundImage = "url('.idea/Images/OpenFoccacia.jpeg')";
+
+      }
+    }
+  </script>
+</div>
 
 
 
