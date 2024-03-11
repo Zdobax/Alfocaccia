@@ -111,7 +111,7 @@
 
 .MenuP1 {
   position: absolute;
-  top: 620px;
+  top: 630px;
   left: 505px;
   font-size: 20px;
   text-align: center;
@@ -139,7 +139,7 @@
 
 .MenuP2 {
   position: absolute;
-  top: 620px;
+  top: 630px;
   left: 1250px;
   font-size: 20px;
   text-align: center;
@@ -159,6 +159,12 @@
   transform: scale(1.1);
 }
 
+.MenuCenter {
+  border: 1px solid black;
+  width: 500px;
+  height: 1800px;
+  position: absolute;
+}
 
 @media screen and (max-width: 1450px){
   .heading {
