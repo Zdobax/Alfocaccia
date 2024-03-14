@@ -162,12 +162,21 @@ margin-top: 40px;
 }
 
 .MenuCenter {
-  border: 5px solid pink;
-  width: 1000px;
-  height: 1800px;
-  margin-left: 463px;
-  margin-top: 50px;
+  border: 5px solid black;
+  width: 800px;
+  height: 1100px;
+  top: 150px;
+  left: 570px;
   position: absolute;
+  background-color: #d9b27b;
+  border-radius: 10px;
+
+}
+
+.MenuHeading{
+  text-align: center;
+  font-family: "Bradley Hand ITC";
+  font-size: 60px;
 
 
 }
