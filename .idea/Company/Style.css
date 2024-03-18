@@ -318,7 +318,7 @@ margin-top: 40px;
 
   .MainPageBody {
     background-image: url('../Images/Alfocaccia2.jpg');
-    background-size: 1450px 900px;
+    background-size: 1450px 800px;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -327,9 +327,9 @@ margin-top: 40px;
   .Main-text {
     position: absolute;
     left: 585px;
-    top: 210px;
-    width: 200px;
-    height: 430px;
+    top: 170px;
+    width: 190px;
+    height: 420px;
     border: 5px solid black;
     border-radius: 10px;
     padding: 48px;
@@ -344,14 +344,14 @@ margin-top: 40px;
     height: 350px;
   }
   .Main-text h1{
-    font-size: 40px;
+    font-size: 38px;
   }
   .Main-button {
     position: absolute;
     width: 100px;
     height: 40px;
-    top: 456px;
-    left: 94px;
+    top: 446px;
+    left: 92px;
     font-size: 14px;
     border-radius: 5px;
     box-shadow: 3px 3px 3px black;
