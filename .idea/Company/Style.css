@@ -70,6 +70,12 @@
   padding:10px;
   text-align: center;
   height: 400px;
+  width: 230px;
+  margin-left: 10px;
+}
+
+.Moto{
+  font-size: 22px;
 }
 
 .Main-text h1 {
@@ -187,6 +193,7 @@ margin-top: 40px;
 
 }
 
+
 @media screen and (max-width: 1810px) and (min-width: 1599px){
   .top{
     border-bottom: 1px solid white;
@@ -199,13 +206,13 @@ margin-top: 40px;
   .menu{
     margin-left: 500px;
     float: left;
-    margin-top: 25px;
+    margin-top: 28px;
     font-size: 19px;
   }
 
   .MainPageBody {
     background-image: url('../Images/Alfocaccia2.jpg');
-    background-size: 1750px 920px;
+    background-size: 1810px 920px;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -213,9 +220,9 @@ margin-top: 40px;
 
   .Main-text {
     position: absolute;
-    left: 710px;
+    left: 728px;
     top: 190px;
-    width: 250px;
+    width: 240px;
     height: 480px;
     border: 5px solid black;
     border-radius: 10px;
@@ -229,15 +236,51 @@ margin-top: 40px;
     padding:10px;
     text-align: center;
     height: 400px;
+    width: 210px;
+    margin-left: 5px;
+  }
+
+  .Main-text-inside h1{
+    font-size: 44px;
   }
 
   .Moto{
-    font-size: 22px;
+    font-size: 21px;
     text-align: center;
   }
 
   .address{
-    font-size: 17px;
+    font-size: 16px;
+  }
+
+  .top img {
+    position: absolute;
+    margin-left: 240px;
+    margin-top: 13px;
+  }
+
+  .heading {
+    margin-left: 350px;
+    margin-top: 21px;
+    font-family: monospace;
+    float: left;
+
+  }
+  .Main-button {
+    position: absolute;
+    width: 120px;
+    height: 50px;
+    top: 495px;
+    left: 110px;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px black;
+
+    background: linear-gradient(to right, black 50%, white 50%) right bottom;
+    background-size: 200% 100%;
+    transition: all .4s ease-in-out;
+
+
   }
 }
 
@@ -251,7 +294,7 @@ margin-top: 40px;
     height: 75px;
   }
   .menu{
-    margin-left: 340px;
+    margin-left: 335px;
     float: left;
     margin-top: 30px;
     font-size: 19px;
@@ -283,13 +326,20 @@ margin-top: 40px;
     padding:10px;
     text-align: center;
     height: 400px;
+    width: 205px;
+    margin-left: 5px;
   }
+
+  .Main-text-inside h1{
+    font-size: 41px;
+  }
+
   .Main-button {
     position: absolute;
     width: 120px;
     height: 50px;
     top: 490px;
-    left: 100px;
+    left: 105px;
     font-size: 16px;
     border-radius: 5px;
     box-shadow: 3px 3px 3px black;
@@ -302,12 +352,12 @@ margin-top: 40px;
   }
 
   .Moto{
-    font-size: 22px;
+    font-size: 21px;
     text-align: center;
   }
 
   .address{
-    font-size: 17px;
+    font-size: 16px;
   }
 }
 
@@ -336,7 +386,7 @@ margin-top: 40px;
 
   .MainPageBody {
     background-image: url('../Images/Alfocaccia2.jpg');
-    background-size: 1450px 825px;
+    background-size: 1450px 900px;;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -360,6 +410,10 @@ margin-top: 40px;
     padding:10px;
     text-align: center;
     height: 350px;
+    width: 190px;
+    position: absolute;
+    left: 30px;
+
   }
   .Main-text h1{
     font-size: 38px;
