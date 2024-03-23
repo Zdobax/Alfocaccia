@@ -336,7 +336,7 @@ margin-top: 40px;
 
   .MainPageBody {
     background-image: url('../Images/Alfocaccia2.jpg');
-    background-size: 1450px 800px;
+    background-size: 1450px 825px;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -430,7 +430,7 @@ margin-top: 40px;
 
   .MainPageBody {
     background-image: url('../Images/Alfocaccia2.jpg');
-    background-size: 1353px 800px;
+    background-size: 1353px 825px;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -511,14 +511,14 @@ margin-top: 40px;
     width: 100%;
     display: inline-block;
     background-image: url("../Images/Coffee.jpg");
-    height: 50px;
+    height: 65px;
   }
   .menu{
-    margin-left: 200px;
+    margin-left: 150px;
     float: left;
-    margin-top: 27px;
-    font-size: 19px;
-    font-size: 17px;
+    margin-top: 26px;
+    font-size: 16px;
+
   }
   .menu a {
     padding-left: 43px;
@@ -529,7 +529,7 @@ margin-top: 40px;
 
   .MainPageBody {
     background-image: url('../Images/Alfocaccia2.jpg');
-    background-size: 1353px 800px;
+    background-size: 1280px 825px;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -537,10 +537,10 @@ margin-top: 40px;
 
   .Main-text {
     position: absolute;
-    left: 550px;
+    left: 520px;
     top: 170px;
-    width: 180px;
-    height: 410px;
+    width: 170px;
+    height: 390px;
     border: 4px solid black;
     border-radius: 10px;
     padding: 48px;
@@ -552,14 +552,14 @@ margin-top: 40px;
     border: 2px solid black;
     padding:10px;
     text-align: center;
-    height: 340px;
+    height: 335px;
   }
   .Main-text h1{
-    font-size: 35px;
+    font-size: 33px;
   }
 
   .Moto{
-    font-size: 19px;
+    font-size: 17px;
     text-align: center;
   }
 
@@ -570,8 +570,105 @@ margin-top: 40px;
     position: absolute;
     width: 90px;
     height: 35px;
-    top: 440px;
-    left: 95px;
+    top: 428px;
+    left: 90px;
+    font-size: 14px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px black;
+
+    background: linear-gradient(to right, black 50%, white 50%) right bottom;
+    background-size: 200% 100%;
+    transition: all .4s ease-in-out;
+
+
+  }
+
+  .top img {
+    width: 90px;
+    height: 40px;
+    position: absolute;
+    left: 0px;
+    top: 5px;
+  }
+
+  .heading {
+    margin-left: 350px;
+    margin-top: 23px;
+    font-family: monospace;
+    float: left;
+    font-size: 24px;
+
+  }
+}
+
+@media screen and (max-width: 390px){
+  .top{
+    border-bottom: 1px solid white;
+    color: white;
+    width: 100%;
+    display: inline-block;
+    background-image: url("../Images/Coffee.jpg");
+    height: 65px;
+  }
+  .menu{
+    margin-left: 150px;
+    float: left;
+    margin-top: 26px;
+    font-size: 16px;
+
+  }
+  .menu a {
+    padding-left: 43px;
+    color: inherit;
+    text-decoration: none;
+    transition: all 1s ease-in-out;
+  }
+
+  .MainPageBody {
+    background-image: url('../Images/Alfocaccia2.jpg');
+    background-size: 1280px 825px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .Main-text {
+    position: absolute;
+    left: 520px;
+    top: 170px;
+    width: 170px;
+    height: 390px;
+    border: 4px solid black;
+    border-radius: 10px;
+    padding: 48px;
+    background-color: #d9b27b;
+
+
+  }
+  .Main-text-inside {
+    border: 2px solid black;
+    padding:10px;
+    text-align: center;
+    height: 335px;
+  }
+  .Main-text h1{
+    font-size: 33px;
+  }
+
+  .Moto{
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .address{
+    font-size: 14px;
+  }
+  .Main-button {
+    position: absolute;
+    width: 90px;
+    height: 35px;
+    top: 428px;
+    left: 90px;
     font-size: 14px;
     border-radius: 5px;
     box-shadow: 3px 3px 3px black;
