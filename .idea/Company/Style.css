@@ -294,7 +294,7 @@ margin-top: 40px;
     height: 75px;
   }
   .menu{
-    margin-left: 335px;
+    margin-left: 400px;
     float: left;
     margin-top: 30px;
     font-size: 19px;
@@ -327,7 +327,7 @@ margin-top: 40px;
     text-align: center;
     height: 400px;
     width: 205px;
-    margin-left: 5px;
+    margin-left: 1px;
   }
 
   .Main-text-inside h1{
@@ -336,10 +336,10 @@ margin-top: 40px;
 
   .Main-button {
     position: absolute;
-    width: 120px;
-    height: 50px;
+    width: 110px;
+    height: 45px;
     top: 490px;
-    left: 105px;
+    left: 110px;
     font-size: 16px;
     border-radius: 5px;
     box-shadow: 3px 3px 3px black;
@@ -359,6 +359,14 @@ margin-top: 40px;
   .address{
     font-size: 16px;
   }
+
+  .menu a {
+    padding-left: 55px;
+    color: inherit;
+    text-decoration: none;
+    transition: all 1s ease-in-out;
+  }
+
 }
 
 @media screen and (max-width: 1440px) and (min-width: 1354px){
