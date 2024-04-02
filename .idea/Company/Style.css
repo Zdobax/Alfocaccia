@@ -118,10 +118,10 @@
 
 .MenuOut {
   border: 5px solid black;
-  width: 780px;
+  width: 740px;
   height: 4000px;
   top: 150px;
-  left: 580px;
+  left: 610px;
   position: absolute;
   background-color: #d9b27b;
   border-radius: 10px;
@@ -136,10 +136,10 @@
 
 .MenuInBreakfast{
   width: 500px;
-  height: 1100px;
+  height: 1140px;
   border: 1px solid black;
   position: absolute;
-  left: 140px;
+  left: 120px;
   text-align: center;
 }
 
@@ -148,8 +148,18 @@
   height: 850px;
   border: 1px solid black;
   position: absolute;
-  top: 1350px;
-  left: 140px;
+  top: 1400px;
+  left: 120px;
+  text-align: center;
+}
+
+.MenuMain{
+  width: 500px;
+  height: 1625px;
+  border: 1px solid black;
+  position: absolute;
+  top: 2320px;
+  left: 120px;
   text-align: center;
 }
 
@@ -162,6 +172,7 @@
 
 .NameOfProduct{
   font-weight: bold;
+  font-size: 19px;
 }
 
 .Ingredients{
@@ -171,6 +182,13 @@
 .Price{
   font-size: 25px;
   font-weight: bold;
+}
+
+.MenuImg1{
+  width: 210px;
+  height: 100px;
+  border-radius: 5px;
+  margin-bottom: -17px;
 }
 
 
