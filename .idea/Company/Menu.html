@@ -8,6 +8,12 @@
   <title></title>
 </head>
 <body style="margin: 0; padding: 0">
+
+<div class="SecTop">
+  <section id="Top"></section>
+</div>
+
+
 <div class="top">
   <img src="../Images/AlfLogo.png" width="90px" height="45px"
        style="position: absolute; margin-left: 240px; margin-top: 10px">
@@ -28,7 +34,28 @@
 
 <div class="MenuOut">
   <h1 class="MenuHeading"><img src="../Images/AlfLogo.png" alt="Menu Logo" class="MenuImg1"></h1>
+  <section id="Snidane"></section>
+
+  <div class="SecButtons">
+  <a href="#Snidane">
+    <button class="BreakButton">Snidane</button>
+  </a>
+
+  <a href="#Polevky">
+    <button class="SoupButton">Polevky</button>
+  </a>
+
+  <a href="#MainJidlo">
+    <button class="MainFoodButton">MainJidlo</button>
+  </a>
+
+  </div>
+  <div class="SecBreak">
+    <section id="Snidane"></section>
+  </div>
+
   <div class="MenuInBreakfast">
+
     <h1>SNÍDAŇOVÉ MENU</h1>
     <br>
     <span class="NameOfProduct">MÍCHANÁ VEJCE S BALKÁNSKÝM SÝREM</span>
@@ -117,7 +144,14 @@
     <span class="NameOfProduct">OŠATKA NAŠEHO ČERSTVÉHO PEČIVA</span>
     <br>
     <span class="Price">20 Kč</span>
+
   </div>
+
+
+  <div class="SecSoup">
+    <section id="Polevky"></section>
+  </div>
+
 
   <div class="MenuInSoup">
     <h1>POLÉVKOVÉ MENU</h1>
@@ -176,7 +210,14 @@
     <span class="Price">20 Kč</span>
   </div>
 
+
+  <div class="SecMain">
+    <section id="MainJidlo"></section>
+  </div>
+
+
   <div class="MenuMain">
+    <section id="MainJidlo"></section>
     <h1>MENU</h1>
     <br>
     <span class="NameOfProduct">FOCCACIA VEGGIE</span>
@@ -303,6 +344,10 @@
     <br>
     <br>
     <span class="Price">250 Kč</span>
+
+    <a href="#Top">
+      <button>Top</button>
+    </a>
   </div>
 
 
@@ -310,17 +355,7 @@
 
 
 <script>
-  const img1 = document.getElementById("img1");
-  const img2 = document.getElementById("img2");
 
-  img1.addEventListener("mouseover", chn);
-
-  function chn() {
-    if (chn) {
-      img1.style.backgroundImage = "url('.idea/Images/OpenFoccacia.jpeg')";
-
-    }
-  }
 </script>
 
 
