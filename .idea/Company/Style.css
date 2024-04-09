@@ -151,7 +151,7 @@
   height: 850px;
   border: 1px solid black;
   position: absolute;
-  top: 1400px;
+  top: 1430px;
   left: 120px;
   text-align: center;
 }
@@ -161,7 +161,7 @@
   height: 1625px;
   border: 1px solid black;
   position: absolute;
-  top: 2320px;
+  top: 2340px;
   left: 120px;
   text-align: center;
 }
@@ -239,7 +239,7 @@ html {
 .SecSoup {
   position: absolute;
 
-  top: 1375px;
+  top: 1395px;
 
 }
 
