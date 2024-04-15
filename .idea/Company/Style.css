@@ -134,6 +134,7 @@
   text-align: center;
   font-family: "Bradley Hand ITC";
   font-size: 60px;
+  margin-left: 5px;
 }
 
 .MenuInBreakfast {
@@ -204,53 +205,61 @@
 
 .SecButtons {
   margin-top: -15px;
+  margin-left: -10px;
 }
 .BreakButton {
   width: 80px;
   height: 35px;
   margin-left: 150px;
   border-radius: 5px;
-  background: linear-gradient(to right, black 50%, white 50%) right bottom;
+  color: white;
+
+  background: linear-gradient(to right, white 50%, #845018 50%) right bottom;
   background-size: 200% 100%;
   transition: all .4s ease-in-out;
 }
 
 .BreakButton:hover{
   background-position: left bottom;
-  color: white;
-  border: 1px solid white;
+  color: black;
+  border: 1px solid black;
+
 
 }
 
 .SoupButton {
   width: 80px;
   height: 35px;
+  color: white;
   border-radius: 5px;
-  background: linear-gradient(to right, black 50%, white 50%) right bottom;
+  background: linear-gradient(to right, white 50%, #845018 50%) right bottom;
   background-size: 200% 100%;
   transition: all .4s ease-in-out;
 }
 
 .SoupButton:hover{
   background-position: left bottom;
-  color: white;
-  border: 1px solid white;
+  color: black;
+  border: 1px solid black;
+
 
 }
 
 .MainFoodButton {
   width: 80px;
   height: 35px;
+  color: white;
   border-radius: 5px;
-  background: linear-gradient(to right, black 50%, white 50%) right bottom;
+  background: linear-gradient(to right, white 50%, #845018 50%) right bottom;
   background-size: 200% 100%;
   transition: all .4s ease-in-out;
 }
 
 .MainFoodButton:hover{
   background-position: left bottom;
-  color: white;
-  border: 1px solid white;
+  color: black;
+  border: 1px solid black;
+
 
 }
 
@@ -258,15 +267,16 @@
   width: 80px;
   height: 35px;
   border-radius: 5px;
-  background: linear-gradient(to right, black 50%, white 50%) right bottom;
+  color: white;
+  background: linear-gradient(to right, white 50%, #845018 50%) right bottom;
   background-size: 200% 100%;
   transition: all .4s ease-in-out;
 }
 
 .EndButton:hover{
   background-position: left bottom;
-  color: white;
-  border: 1px solid white;
+  color: black;
+  border: 1px solid black;
 
 }
 
@@ -302,12 +312,12 @@ html {
 .SecMain {
   position: absolute;
 
-  top: 2300px;
+  top: 2320px;
 
 }
 
 
-@media screen and (max-width: 1810px) and (min-width: 1599px) {
+@media screen and (max-width: 1832px) and (min-width: 1599px) {
   .top {
     border-bottom: 1px solid white;
     color: white;
@@ -318,7 +328,7 @@ html {
   }
 
   .menu {
-    margin-left: 500px;
+    margin-left: 600px;
     float: left;
     margin-top: 28px;
     font-size: 19px;
@@ -398,6 +408,205 @@ html {
 
 
   }
+
+
+  /* Menu-resolution*/
+
+  .MenuOut {
+    border: 5px solid black;
+    width: 700px;
+    height: 4050px;
+    top: 150px;
+    left: 570px;
+    position: absolute;
+    background-color: #d9b27b;
+    border-radius: 10px;
+
+  }
+
+.HeadingOfSSM{
+  font-size: 29px;
+}
+  .MenuHeading {
+    text-align: center;
+    font-family: "Bradley Hand ITC";
+    font-size: 60px;
+    margin-left: 5px;
+  }
+
+  .MenuInBreakfast {
+    width: 460px;
+    height: 1140px;
+    border: 1px solid black;
+    position: absolute;
+    left: 120px;
+    text-align: center;
+    top: 230px;
+  }
+
+  .MenuInSoup {
+    width: 460px;
+    height: 850px;
+    border: 1px solid black;
+    position: absolute;
+    top: 1430px;
+    left: 120px;
+    text-align: center;
+  }
+
+  .MenuMain {
+    width: 460px;
+    height: 1625px;
+    border: 1px solid black;
+    position: absolute;
+    top: 2340px;
+    left: 120px;
+    text-align: center;
+  }
+
+
+  .MenuIn h1 {
+    font-size: 35px;
+  }
+
+  .NameOfProduct {
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  .Ingredients {
+    margin-top: 5px;
+  }
+
+  .Price {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+
+  /* Sections */
+
+  .SecButtons a{
+    padding-left: 55px;
+    text-decoration: none;
+
+
+  }
+
+  .SecButtons {
+    margin-top: -15px;
+    margin-left: -10px;
+  }
+  .BreakButton {
+    width: 80px;
+    height: 35px;
+    margin-left: 150px;
+    border-radius: 5px;
+    color: white;
+
+    background: linear-gradient(to right, white 50%, #845018 50%) right bottom;
+    background-size: 200% 100%;
+    transition: all .4s ease-in-out;
+  }
+
+  .BreakButton:hover{
+    background-position: left bottom;
+    color: black;
+    border: 1px solid black;
+
+
+  }
+
+  .SoupButton {
+    width: 80px;
+    height: 35px;
+    color: white;
+    border-radius: 5px;
+    background: linear-gradient(to right, white 50%, #845018 50%) right bottom;
+    background-size: 200% 100%;
+    transition: all .4s ease-in-out;
+  }
+
+  .SoupButton:hover{
+    background-position: left bottom;
+    color: black;
+    border: 1px solid black;
+
+
+  }
+
+  .MainFoodButton {
+    width: 80px;
+    height: 35px;
+    color: white;
+    border-radius: 5px;
+    background: linear-gradient(to right, white 50%, #845018 50%) right bottom;
+    background-size: 200% 100%;
+    transition: all .4s ease-in-out;
+  }
+
+  .MainFoodButton:hover{
+    background-position: left bottom;
+    color: black;
+    border: 1px solid black;
+
+
+  }
+
+  .EndButton {
+    width: 80px;
+    height: 35px;
+    border-radius: 5px;
+    color: white;
+    background: linear-gradient(to right, white 50%, #845018 50%) right bottom;
+    background-size: 200% 100%;
+    transition: all .4s ease-in-out;
+  }
+
+  .EndButton:hover{
+    background-position: left bottom;
+    color: black;
+    border: 1px solid black;
+
+  }
+
+
+
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .SecTop {
+    position: absolute;
+    top: 0;
+  }
+
+
+  .SecBreak {
+    position: absolute;
+
+
+    top: 220px;
+
+  }
+
+
+  .SecSoup {
+    position: absolute;
+
+    top: 1395px;
+
+  }
+
+  .SecMain {
+    position: absolute;
+
+    top: 2320px;
+
+  }
+
+
 }
 
 @media screen and (max-width: 1598px) and (min-width: 1441px) {
@@ -411,7 +620,7 @@ html {
   }
 
   .menu {
-    margin-left: 400px;
+    margin-left: 450px;
     float: left;
     margin-top: 30px;
     font-size: 19px;
