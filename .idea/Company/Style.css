@@ -620,7 +620,7 @@ html {
   }
 
   .menu {
-    margin-left: 450px;
+    margin-left: 480px;
     float: left;
     margin-top: 30px;
     font-size: 19px;
@@ -694,6 +694,164 @@ html {
     transition: all 1s ease-in-out;
   }
 
+  /* Menu-resolution*/
+
+  .MenuOut {
+    border: 5px solid black;
+    width: 670px;
+    height: 4010px;
+    top: 150px;
+    left: 500px;
+    position: absolute;
+    background-color: #d9b27b;
+    border-radius: 10px;
+
+  }
+
+  .HeadingOfSSM{
+    font-size: 27px;
+  }
+  .MenuHeading {
+    text-align: center;
+    font-family: "Bradley Hand ITC";
+    font-size: 60px;
+    margin-left: 10px;
+  }
+
+  .MenuInBreakfast {
+    width: 450px;
+    height: 1120px;
+    border: 1px solid black;
+    position: absolute;
+    left: 110px;
+    text-align: center;
+    top: 230px;
+  }
+
+  .MenuInSoup {
+    width: 450px;
+    height: 850px;
+    border: 1px solid black;
+    position: absolute;
+    top: 1410px;
+    left: 110px;
+    text-align: center;
+  }
+
+  .MenuMain {
+    width: 450px;
+    height: 1580px;
+    border: 1px solid black;
+    position: absolute;
+    top: 2320px;
+    left: 110px;
+    text-align: center;
+  }
+
+
+  .MenuIn h1 {
+    font-size: 35px;
+  }
+
+  .NameOfProduct {
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  .Ingredients {
+    margin-top: 5px;
+    font-size: 15px;
+  }
+
+  .Price {
+    font-size: 23px;
+    font-weight: bold;
+  }
+
+
+  /* Sections */
+
+  .SecButtons a{
+    padding-left: 50px;
+    text-decoration: none;
+
+
+  }
+
+  .SecButtons {
+    margin-top: -15px;
+    margin-left: -31px;
+  }
+  .BreakButton {
+    width: 80px;
+    height: 35px;
+    margin-left: 150px;
+    border-radius: 5px;
+  }
+
+  .BreakButton:hover{
+    background-position: left bottom;
+    color: black;
+    border: 1px solid black;
+
+
+  }
+
+  .SoupButton {
+    width: 80px;
+    height: 35px;
+  }
+
+  .MainFoodButton {
+    width: 80px;
+    height: 35px;
+  }
+
+  .EndButton {
+    width: 80px;
+    height: 35px;
+    border-radius: 5px;
+
+  }
+
+
+
+
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .SecTop {
+    position: absolute;
+    top: 0;
+  }
+
+
+  .SecBreak {
+    position: absolute;
+
+
+    top: 220px;
+
+  }
+
+
+  .SecSoup {
+    position: absolute;
+
+    top: 1395px;
+
+  }
+
+  .SecMain {
+    position: absolute;
+
+    top: 2300px;
+
+  }
+
+
 }
 
 @media screen and (max-width: 1440px) and (min-width: 1354px) {
@@ -707,7 +865,7 @@ html {
   }
 
   .menu {
-    margin-left: 380px;
+    margin-left: 450px;
     float: left;
     margin-top: 30px;
     font-size: 19px;
@@ -798,6 +956,166 @@ html {
   .address {
     font-size: 14px;
   }
+
+
+  /* Menu-resolution*/
+
+  .MenuOut {
+    border: 5px solid black;
+    width: 630px;
+    height: 4010px;
+    top: 150px;
+    left: 440px;
+    position: absolute;
+    background-color: #d9b27b;
+    border-radius: 10px;
+
+  }
+
+  .HeadingOfSSM{
+    font-size: 25px;
+  }
+  .MenuHeading {
+    text-align: center;
+    font-family: "Bradley Hand ITC";
+    font-size: 60px;
+    margin-left: 1px;
+  }
+
+  .MenuInBreakfast {
+    width: 430px;
+    height: 1120px;
+    border: 1px solid black;
+    position: absolute;
+    left: 100px;
+    text-align: center;
+    top: 230px;
+  }
+
+  .MenuInSoup {
+    width: 430px;
+    height: 850px;
+    border: 1px solid black;
+    position: absolute;
+    top: 1410px;
+    left: 100px;
+    text-align: center;
+  }
+
+  .MenuMain {
+    width: 430px;
+    height: 1580px;
+    border: 1px solid black;
+    position: absolute;
+    top: 2320px;
+    left: 100px;
+    text-align: center;
+  }
+
+
+  .MenuIn h1 {
+    font-size: 35px;
+  }
+
+  .NameOfProduct {
+    font-weight: bold;
+    font-size: 17px;
+  }
+
+  .Ingredients {
+    margin-top: 5px;
+    font-size: 13px;
+  }
+
+  .Price {
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+
+  /* Sections */
+
+  .SecButtons a{
+    padding-left: 47px;
+    text-decoration: none;
+
+
+  }
+
+  .SecButtons {
+    margin-top: -13px;
+    margin-left: -45px;
+  }
+  .BreakButton {
+    width: 75px;
+    height: 33px;
+    font-size: 11px;
+  }
+
+
+  .MenuImg1 {
+    width: 180px;
+    height: 90px;
+    border-radius: 5px;
+    margin-bottom: -20px;
+  }
+
+  .SoupButton {
+    width: 75px;
+    height: 33px;
+    font-size: 11px;
+  }
+
+  .MainFoodButton {
+    width: 75px;
+    height: 33px;
+    font-size: 11px;
+  }
+
+  .EndButton {
+    width: 75px;
+    height: 33px;
+    font-size: 11px;
+
+  }
+
+
+
+
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .SecTop {
+    position: absolute;
+    top: 0;
+  }
+
+
+  .SecBreak {
+    position: absolute;
+
+
+    top: 220px;
+
+  }
+
+
+  .SecSoup {
+    position: absolute;
+
+    top: 1395px;
+
+  }
+
+  .SecMain {
+    position: absolute;
+
+    top: 2300px;
+
+  }
+
 }
 
 @media screen and (max-width: 1353px) and (min-width: 1281px) {
