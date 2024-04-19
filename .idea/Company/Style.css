@@ -48,6 +48,19 @@
   transition: all 1s ease-in-out;
 }
 
+nav #marker{
+position: absolute;
+  height: 4px;
+  width: 0;
+  background: black;
+  left: 1386px;
+  border-radius: 6px;
+
+
+
+
+}
+
 .menu a:hover {
   text-decoration: underline;
 }
