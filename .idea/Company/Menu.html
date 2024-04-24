@@ -22,28 +22,13 @@
   <nav class="menu">
 
     <a href="Main.html">Home</a>
-    <a href="Menu.html">Menu</a>
+    <a href="Menu.html" style="text-decoration: underline;
+     text-decoration-thickness: 3px; text-underline-offset: 5px">Menu</a>
     <a href="Gallery.html">Gallery</a>
     <a href="Contact.html">Contact</a>
-    <div id="marker"></div>
+
   </nav>
 
-  <script>
-let marker = document.querySelector('marker');
-let item = document.querySelector('nav a');
-
-function indicator(e){
-  marker.style.left = e.offsetLeft + "px" ;
-  marker.style.width = e.offsetWidth+ "px";
-
-}
-
-item.forEach(eacha =>{
-  eacha.addEventListener('click', (e)=>{
-    indicator(e.target);
-  })
-})
-  </script>
 
 
 </div>
@@ -54,8 +39,6 @@ item.forEach(eacha =>{
 
 <div class="MenuOut">
   <h1 class="MenuHeading"><img src="../Images/AlfLogo.png" alt="Menu Logo" class="MenuImg1"></h1>
-
-
 
 
   <div class="SecButtons">
