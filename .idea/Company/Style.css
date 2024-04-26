@@ -1652,8 +1652,8 @@ html {
   }
 
   .SecButtons {
-    margin-top: -5px;
-    margin-left: -120px;
+    margin-top: -2px;
+    margin-left: -117px;
     width: 550px;
   }
   .BreakButton {
@@ -1778,6 +1778,20 @@ html {
 
   .gallery-main{
     padding: 20px;
+    margin-left: 50px;
+    margin-top: -6px;
+  }
+
+  .gallery-main img{
+    padding-left: 25px;
+    padding-bottom: 25px;
+    border-radius: 5px;
+    transition: transform .2s;
+
+  }
+
+  .gallery-main img:hover{
+   transform: scale(1.2);
   }
 
 
