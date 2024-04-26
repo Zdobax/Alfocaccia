@@ -1575,6 +1575,17 @@ html {
     filter: blur(12px)
   }
 
+  .BluredBcgContact {
+    background-image: url('../Images/Alfocaccia2.jpg');
+    background-size: 1070px 700px;
+    height: 950px;
+    padding: 0;
+    margin-top: -4px;
+    background-attachment: fixed;
+    filter: blur(12px)
+  }
+
+
 
   .HeadingOfSSM{
     font-size: 25px;
@@ -1757,14 +1768,14 @@ html {
   .SecSoup {
     position: absolute;
 
-    top: 1415px;
+    top: 1428px;
 
   }
 
   .SecMain {
     position: absolute;
 
-    top: 2305px;
+    top: 2320px;
 
   }
 
@@ -1793,6 +1804,76 @@ html {
   .gallery-main img:hover{
    transform: scale(1.2);
   }
+
+
+
+  /* Contact */
+
+  .main-contact{
+    width: 500px;
+    height: 830px;
+    border: 2px solid black;
+    background-color: #d9b27b;
+    text-align: center;
+    position: absolute;
+    top: 140px;
+    left: 250px;
+    border-radius: 4px;
+
+
+  }
+
+  .ContactHeading{
+    font-size: 25px;
+    font-weight: bold;
+
+
+  }
+
+  .AddressName{
+    top: 63px;
+   left: 143px;
+    position: absolute;
+    font-weight: bold;
+  }
+
+  .ContactInfo{
+    top: 380px;
+    left: 107px;
+    position: absolute;
+
+  }
+  .ContactInnerBorder{
+    width: 400px;
+    height: 460px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    position: absolute;
+    left: 50px;
+
+  }
+
+  .Map{
+    position: absolute;
+    top: 479px;
+    left: 8px;
+    width:479px;
+    height:340px;
+    border:1 solid grey;
+    allowfullscreen:"";
+    loading:lazy;
+    referrerpolicy:no-referrer-when-downgrade;
+  }
+
+  .OpenDays{
+    top: 195px;
+    left: 143px;
+    position: absolute;
+
+  }
+
+
 
 
 }
